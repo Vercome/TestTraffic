@@ -134,7 +134,7 @@ public class Utils {
         }
         Message message=new Message();
         message.obj=result;
-        message.obj=type;
+        message.what=type;
         handler.sendMessage(message);
     }
 }
